@@ -1,0 +1,414 @@
+/* Author: [Kiran Yadav (c3395436)] */
+.home {
+  max-width: 890px;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+}
+.home-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.home-content h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.cta-button {
+  background-color: #B8860B;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+.quick-overview {
+  background-color: #00704A;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.quick-overview h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.account-summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.account-balance p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact-support {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.contact-support a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.contact-support a:hover {
+  text-decoration: underline;
+}
+
+.video-tutorials {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.video-tutorials a {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+
+.news-updates {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.news-updates a {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+
+.bill-payment {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.bill-payment h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin: 20px 0;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #B8860B;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.profile {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.profile h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin: 20px 0;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #B8860B;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.help-support {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.help-support h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.help-support p {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.help-support h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.help-support ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.help-support a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.help-support a:hover {
+  text-decoration: underline;
+}
+
+.news-article img {
+  max-width: 100%; 
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+/* Dashboard Container */
+.dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.account-summary {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+.account-summary h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.account-summary p {
+  font-size: 20px;
+  margin-bottom: 20px; 
+}
+
+.recent-transactions {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.recent-transactions h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.recent-transactions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-transactions li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction-description {
+  font-size: 18px;
+}
+
+.transaction-amount {
+  font-size: 18px;
+}
+
+.transaction-amount.expense {
+  color: #FF6347;
+}
+
+.transaction-amount.income {
+  color: #32CD32;
+}
+
+.transaction-date {
+  font-size: 16px;
+}
+
+/* Transaction Container */
+
+.transaction-history {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.transaction-history h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-weight: bold;
+}
+
+table tr {
+  border: 1px solid #ddd;
+}
+
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.transaction-amount {
+  font-weight: bold;
+}
+
+.transaction-amount.expense {
+  color: #FF6347;
+}
+
+.transaction-amount.income {
+  color: #32CD32;
+}
+
+
+/* Funds Transfer Container */
+
+.transfer-funds {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.transfer-funds h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.cta-button {
+  background-color: #B8860B;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add these styles to your existing CSS or create a new CSS file */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  position: relative;
+}
+
+.account-summary,
+.recent-transactions {
+  text-align: center;
+}
+
+.user-settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.save-settings-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+/* Dashboard Container */

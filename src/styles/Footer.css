@@ -1,0 +1,25 @@
+/* Author: [Kiran Yadav (c3395436)] */
+
+.footer {
+  background-color: #B8860B;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.footer-logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.footer-info p {
+  margin: 0;
+}
