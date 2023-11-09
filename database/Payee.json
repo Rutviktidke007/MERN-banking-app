@@ -1,0 +1,18 @@
+[
+    {
+      "bsbCode": "123-456",
+      "accountNumber": "78901234",
+      "billName": "Electricity"
+    },
+    {
+      "bsbCode": "987-654",
+      "accountNumber": "56789012",
+      "billName": "Internet"
+    },
+    {
+      "bsbCode": "111-222",
+      "accountNumber": "33334444",
+      "billName": "Water"
+    }
+  ]
+  
